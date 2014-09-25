@@ -1,0 +1,157 @@
+/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/bin/ruby extconf.rb 
+The Gosu gem requires some libraries to be installed system-wide.
+See the following site for a list:
+https://github.com/jlnr/gosu/wiki/Getting-Started-on-OS-X
+
+creating Makefile
+
+make  clean
+
+make
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o gosu_wrap.o -c gosu_wrap.cxx
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Audio-AudioOpenAL.o -c Audio-AudioOpenAL.cpp
+In file included from Audio-AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/AudioOpenAL.mm:1:
+In file included from ./../../src/Audio/AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/ALChannelManagement.hpp:5:
+./../../src/Audio/../MacUtility.hpp:36:16: warning: 'GetMacOSStatusErrorString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << GetMacOSStatusErrorString(status)
+               ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:807:1: note: 'GetMacOSStatusErrorString' declared here
+GetMacOSStatusErrorString(OSStatus err)                       __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from Audio-AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/AudioOpenAL.mm:1:
+In file included from ./../../src/Audio/AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/ALChannelManagement.hpp:5:
+./../../src/Audio/../MacUtility.hpp:37:24: warning: 'GetMacOSStatusCommentString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << " (" << GetMacOSStatusCommentString(status) << ")";
+                       ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:848:1: note: 'GetMacOSStatusCommentString' declared here
+GetMacOSStatusCommentString(OSStatus err)                     __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from Audio-AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/AudioOpenAL.mm:1:
+In file included from ./../../src/Audio/AudioOpenAL.cpp:21:
+./../../src/Audio/AudioToolboxFile.hpp:151:13: warning: 'CFURLGetFSRef' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]
+            CFURLGetFSRef(reinterpret_cast<CFURLRef>(url.get()), &fsRef);
+            ^
+/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h:475:9: note: 'CFURLGetFSRef' declared here
+Boolean CFURLGetFSRef(CFURLRef url, struct FSRef *fsRef) CF_DEPRECATED(10_0, 10_9, 2_0, 7_0);
+        ^
+In file included from Audio-AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/AudioOpenAL.mm:1:
+In file included from ./../../src/Audio/AudioOpenAL.cpp:21:
+./../../src/Audio/AudioToolboxFile.hpp:154:26: warning: 'ExtAudioFileOpen' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+                CHECK_OS(ExtAudioFileOpen(&fsRef, &file_));
+                         ^
+./../../src/Audio/../MacUtility.hpp:42:36: note: expanded from macro 'CHECK_OS'
+    #define CHECK_OS(status) if (!(status)) {} else Gosu::throwOSError(status, __LINE__)
+                                   ^
+/System/Library/Frameworks/AudioToolbox.framework/Headers/ExtendedAudioFile.h:317:1: note: 'ExtAudioFileOpen' declared here
+ExtAudioFileOpen(                       const struct FSRef *            inFSRef,
+^
+In file included from Audio-AudioOpenAL.cpp:1:
+In file included from ./../../src/Audio/AudioOpenAL.mm:1:
+In file included from ./../../src/Audio/AudioOpenAL.cpp:21:
+./../../src/Audio/AudioToolboxFile.hpp:154:26: warning: 'ExtAudioFileOpen' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+                CHECK_OS(ExtAudioFileOpen(&fsRef, &file_));
+                         ^
+./../../src/Audio/../MacUtility.hpp:42:72: note: expanded from macro 'CHECK_OS'
+    #define CHECK_OS(status) if (!(status)) {} else Gosu::throwOSError(status, __LINE__)
+                                                                       ^
+/System/Library/Frameworks/AudioToolbox.framework/Headers/ExtendedAudioFile.h:317:1: note: 'ExtAudioFileOpen' declared here
+ExtAudioFileOpen(                       const struct FSRef *            inFSRef,
+^
+5 warnings generated.
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Bitmap-Bitmap.o -c Bitmap-Bitmap.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Bitmap-BitmapApple.o -c Bitmap-BitmapApple.cpp
+In file included from Bitmap-BitmapApple.cpp:1:
+In file included from ./../../src/Bitmap/BitmapApple.mm:7:
+../../src/MacUtility.hpp:36:16: warning: 'GetMacOSStatusErrorString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << GetMacOSStatusErrorString(status)
+               ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:807:1: note: 'GetMacOSStatusErrorString' declared here
+GetMacOSStatusErrorString(OSStatus err)                       __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from Bitmap-BitmapApple.cpp:1:
+In file included from ./../../src/Bitmap/BitmapApple.mm:7:
+../../src/MacUtility.hpp:37:24: warning: 'GetMacOSStatusCommentString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << " (" << GetMacOSStatusCommentString(status) << ")";
+                       ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:848:1: note: 'GetMacOSStatusCommentString' declared here
+GetMacOSStatusCommentString(OSStatus err)                     __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from Bitmap-BitmapApple.cpp:1:
+./../../src/Bitmap/BitmapApple.mm:67:28: warning: 'bestRepresentationForDevice:' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+        id anyRep = [image bestRepresentationForDevice:nil];
+                           ^
+/System/Library/Frameworks/AppKit.framework/Headers/NSImage.h:131:1: note: method 'bestRepresentationForDevice:' declared here
+- (NSImageRep *)bestRepresentationForDevice:(NSDictionary *)deviceDescription NS_DEPRECATED_MAC(10_0, 10_6);
+^
+3 warnings generated.
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Bitmap-BitmapColorKey.o -c Bitmap-BitmapColorKey.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Bitmap-BitmapUtils.o -c Bitmap-BitmapUtils.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o DirectoriesUnix.o -c DirectoriesUnix.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o FileUnix.o -c FileUnix.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-BlockAllocator.o -c Graphics-BlockAllocator.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Color.o -c Graphics-Color.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Graphics.o -c Graphics-Graphics.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Image.o -c Graphics-Image.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-LargeImageData.o -c Graphics-LargeImageData.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Resolution.o -c Graphics-Resolution.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-ResolutionApple.o -c Graphics-ResolutionApple.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-TexChunk.o -c Graphics-TexChunk.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Texture.o -c Graphics-Texture.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Graphics-Transform.o -c Graphics-Transform.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Input-Input.o -c Input-Input.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Input-TextInput.o -c Input-TextInput.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Inspection.o -c Inspection.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o IO.o -c IO.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Math.o -c Math.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Text-Font.o -c Text-Font.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Text-Text.o -c Text-Text.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Text-TextApple.o -c Text-TextApple.cpp
+In file included from Text-TextApple.cpp:1:
+In file included from ./../../src/Text/TextApple.mm:9:
+./../../src/Text/../MacUtility.hpp:36:16: warning: 'GetMacOSStatusErrorString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << GetMacOSStatusErrorString(status)
+               ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:807:1: note: 'GetMacOSStatusErrorString' declared here
+GetMacOSStatusErrorString(OSStatus err)                       __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from Text-TextApple.cpp:1:
+In file included from ./../../src/Text/TextApple.mm:9:
+./../../src/Text/../MacUtility.hpp:37:24: warning: 'GetMacOSStatusCommentString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << " (" << GetMacOSStatusCommentString(status) << ")";
+                       ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:848:1: note: 'GetMacOSStatusCommentString' declared here
+GetMacOSStatusCommentString(OSStatus err)                     __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+2 warnings generated.
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Text-TextMac.o -c Text-TextMac.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o TimingApple.o -c TimingApple.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Utility.o -c Utility.cpp
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o UtilityApple.o -c UtilityApple.cpp
+In file included from UtilityApple.cpp:1:
+In file included from ./../../src/UtilityApple.mm:3:
+../../src/MacUtility.hpp:36:16: warning: 'GetMacOSStatusErrorString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << GetMacOSStatusErrorString(status)
+               ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:807:1: note: 'GetMacOSStatusErrorString' declared here
+GetMacOSStatusErrorString(OSStatus err)                       __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+In file included from UtilityApple.cpp:1:
+In file included from ./../../src/UtilityApple.mm:3:
+../../src/MacUtility.hpp:37:24: warning: 'GetMacOSStatusCommentString' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+            << " (" << GetMacOSStatusCommentString(status) << ")";
+                       ^
+/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Debugging.h:848:1: note: 'GetMacOSStatusCommentString' declared here
+GetMacOSStatusCommentString(OSStatus err)                     __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_4, __MAC_10_8, __IPHONE_NA, __IPHONE_NA);
+^
+2 warnings generated.
+g++ -I. -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/x86_64-darwin13.3.0 -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1/ruby/backward -I/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/include/ruby-1.9.1 -I. -I../.. -I../../src -I/usr/local/opt/libyaml/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -O3 -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include -fno-common -pipe -DGOSU_DEPRECATED= -I/usr/local/include -x objective-c -DNDEBUG   -I/usr/local/include -x objective-c++ -U_GLIBCXX_DEBUG -U_GLIBCXX_DEBUG_PEDANTIC -std=gnu++11 -o Window.o -c Window.cpp
+g++ -dynamic -bundle -o gosu.bundle gosu_wrap.o Audio-AudioOpenAL.o Bitmap-Bitmap.o Bitmap-BitmapApple.o Bitmap-BitmapColorKey.o Bitmap-BitmapUtils.o DirectoriesUnix.o FileUnix.o Graphics-BlockAllocator.o Graphics-Color.o Graphics-Graphics.o Graphics-Image.o Graphics-LargeImageData.o Graphics-Resolution.o Graphics-ResolutionApple.o Graphics-TexChunk.o Graphics-Texture.o Graphics-Transform.o Input-Input.o Input-TextInput.o Inspection.o IO.o Math.o Text-Font.o Text-Text.o Text-TextApple.o Text-TextMac.o TimingApple.o Utility.o UtilityApple.o Window.o -L. -L/Users/cenk/.rvm/rubies/ruby-1.9.2-p330/lib -L/usr/local/opt/libyaml/lib -L. -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib -liconv -lSDL2 -logg -lvorbis -lvorbisfile -framework AudioToolbox -framework IOKit -framework OpenAL -framework OpenGL -framework AppKit -framework ApplicationServices -framework Foundation -framework Carbon -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -Wl,-flat_namespace  -lruby.1.9.1  -lpthread -ldl -lobjc 
+
+make  install
+/usr/bin/install -c -m 0755 gosu.bundle /Users/cenk/code_fellows/day7/robotank-showdown/vendor/bundle/ruby/1.9.1/gems/gosu-0.8.4/ext/gosu/.gem.20140925-1174-11m5l4e

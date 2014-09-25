@@ -1,0 +1,851 @@
+--- 
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 31.0
+  elapsed_ticks: 5701
+  seed: 1411663949
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 69.0
+      kills: 1
+    Honeypie: 
+      damage_given: 69.0
+      damage_taken: 108.0
+      kills: 0
+  match: 0
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 88.0
+  elapsed_ticks: 1106
+  seed: 1411663950
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 12.0
+      kills: 1
+    Honeypie: 
+      damage_given: 12.0
+      damage_taken: 108.0
+      kills: 0
+  match: 1
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 83.5
+  elapsed_ticks: 1889
+  seed: 1411663952
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 16.5
+      kills: 1
+    Honeypie: 
+      damage_given: 16.5
+      damage_taken: 108.0
+      kills: 0
+  match: 2
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 86.5
+  elapsed_ticks: 1278
+  seed: 1411663953
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 13.5
+      kills: 1
+    Honeypie: 
+      damage_given: 13.5
+      damage_taken: 108.0
+      kills: 0
+  match: 3
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 95.5
+  elapsed_ticks: 1630
+  seed: 1411663955
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 4.5
+      kills: 1
+    Honeypie: 
+      damage_given: 4.5
+      damage_taken: 108.0
+      kills: 0
+  match: 4
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 85.0
+  elapsed_ticks: 702
+  seed: 1411663956
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 15.0
+      kills: 1
+    Honeypie: 
+      damage_given: 15.0
+      damage_taken: 108.0
+      kills: 0
+  match: 5
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 62.5
+  elapsed_ticks: 3555
+  seed: 1411663957
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 37.5
+      kills: 1
+    Honeypie: 
+      damage_given: 37.5
+      damage_taken: 108.0
+      kills: 0
+  match: 6
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 29.5
+  elapsed_ticks: 6138
+  seed: 1411663959
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 70.5
+      kills: 1
+    Honeypie: 
+      damage_given: 70.5
+      damage_taken: 108.0
+      kills: 0
+  match: 7
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 89.5
+  elapsed_ticks: 1027
+  seed: 1411663961
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 10.5
+      kills: 1
+    Honeypie: 
+      damage_given: 10.5
+      damage_taken: 108.0
+      kills: 0
+  match: 8
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 98.5
+  elapsed_ticks: 2885
+  seed: 1411663962
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 1.5
+      kills: 1
+    Honeypie: 
+      damage_given: 1.5
+      damage_taken: 108.0
+      kills: 0
+  match: 9
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 95.5
+  elapsed_ticks: 1981
+  seed: 1411663964
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 4.5
+      kills: 1
+    Honeypie: 
+      damage_given: 4.5
+      damage_taken: 108.0
+      kills: 0
+  match: 10
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 86.5
+  elapsed_ticks: 1429
+  seed: 1411663965
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 13.5
+      kills: 1
+    Honeypie: 
+      damage_given: 13.5
+      damage_taken: 108.0
+      kills: 0
+  match: 11
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 97.0
+  elapsed_ticks: 938
+  seed: 1411663967
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 3.0
+      kills: 1
+    Honeypie: 
+      damage_given: 3.0
+      damage_taken: 108.0
+      kills: 0
+  match: 12
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 97.0
+  elapsed_ticks: 1027
+  seed: 1411663968
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 3.0
+      kills: 1
+    Honeypie: 
+      damage_given: 3.0
+      damage_taken: 108.0
+      kills: 0
+  match: 13
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 40.0
+  elapsed_ticks: 4797
+  seed: 1411663969
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 60.0
+      kills: 1
+    Honeypie: 
+      damage_given: 60.0
+      damage_taken: 108.0
+      kills: 0
+  match: 14
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 88.0
+  elapsed_ticks: 658
+  seed: 1411663972
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 12.0
+      kills: 1
+    Honeypie: 
+      damage_given: 12.0
+      damage_taken: 108.0
+      kills: 0
+  match: 15
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 86.5
+  elapsed_ticks: 805
+  seed: 1411663973
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 13.5
+      kills: 1
+    Honeypie: 
+      damage_given: 13.5
+      damage_taken: 108.0
+      kills: 0
+  match: 16
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 97.0
+  elapsed_ticks: 4519
+  seed: 1411663975
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 3.0
+      kills: 1
+    Honeypie: 
+      damage_given: 3.0
+      damage_taken: 108.0
+      kills: 0
+  match: 17
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 74.5
+  elapsed_ticks: 1645
+  seed: 1411663976
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 25.5
+      kills: 1
+    Honeypie: 
+      damage_given: 25.5
+      damage_taken: 108.0
+      kills: 0
+  match: 18
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 98.5
+  elapsed_ticks: 3155
+  seed: 1411663978
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 1.5
+      kills: 1
+    Honeypie: 
+      damage_given: 1.5
+      damage_taken: 108.0
+      kills: 0
+  match: 19
+  round: 1
+- winner_is: 
+  - Honeypie
+  winner_energy: 
+  - 1.0
+  elapsed_ticks: 7353
+  seed: 1411663979
+  robots: 
+    Bunny: 
+      damage_given: 99.0
+      damage_taken: 100.5
+      kills: 0
+    Honeypie: 
+      damage_given: 100.5
+      damage_taken: 99.0
+      kills: 1
+  match: 20
+  round: 1
+- winner_is: 
+  - Honeypie
+  winner_energy: 
+  - 10.0
+  elapsed_ticks: 8322
+  seed: 1411663982
+  robots: 
+    Bunny: 
+      damage_given: 90.0
+      damage_taken: 100.5
+      kills: 0
+    Honeypie: 
+      damage_given: 100.5
+      damage_taken: 90.0
+      kills: 1
+  match: 21
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 89.5
+  elapsed_ticks: 1167
+  seed: 1411663984
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 10.5
+      kills: 1
+    Honeypie: 
+      damage_given: 10.5
+      damage_taken: 108.0
+      kills: 0
+  match: 22
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 83.5
+  elapsed_ticks: 1373
+  seed: 1411663985
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 16.5
+      kills: 1
+    Honeypie: 
+      damage_given: 16.5
+      damage_taken: 108.0
+      kills: 0
+  match: 23
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 77.5
+  elapsed_ticks: 1951
+  seed: 1411663986
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 22.5
+      kills: 1
+    Honeypie: 
+      damage_given: 22.5
+      damage_taken: 108.0
+      kills: 0
+  match: 24
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 83.5
+  elapsed_ticks: 1842
+  seed: 1411663988
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 16.5
+      kills: 1
+    Honeypie: 
+      damage_given: 16.5
+      damage_taken: 108.0
+      kills: 0
+  match: 25
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 95.5
+  elapsed_ticks: 1403
+  seed: 1411663989
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 4.5
+      kills: 1
+    Honeypie: 
+      damage_given: 4.5
+      damage_taken: 108.0
+      kills: 0
+  match: 26
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 23.5
+  elapsed_ticks: 6235
+  seed: 1411663991
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 76.5
+      kills: 1
+    Honeypie: 
+      damage_given: 76.5
+      damage_taken: 108.0
+      kills: 0
+  match: 27
+  round: 1
+- winner_is: 
+  - Honeypie
+  winner_energy: 
+  - 46.0
+  elapsed_ticks: 7449
+  seed: 1411663993
+  robots: 
+    Bunny: 
+      damage_given: 54.0
+      damage_taken: 100.5
+      kills: 0
+    Honeypie: 
+      damage_given: 100.5
+      damage_taken: 54.0
+      kills: 1
+  match: 28
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 61.0
+  elapsed_ticks: 3615
+  seed: 1411663995
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 39.0
+      kills: 1
+    Honeypie: 
+      damage_given: 39.0
+      damage_taken: 108.0
+      kills: 0
+  match: 29
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 95.5
+  elapsed_ticks: 996
+  seed: 1411663996
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 4.5
+      kills: 1
+    Honeypie: 
+      damage_given: 4.5
+      damage_taken: 108.0
+      kills: 0
+  match: 30
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 91.0
+  elapsed_ticks: 1228
+  seed: 1411663998
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 9.0
+      kills: 1
+    Honeypie: 
+      damage_given: 9.0
+      damage_taken: 108.0
+      kills: 0
+  match: 31
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 94.0
+  elapsed_ticks: 977
+  seed: 1411663999
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 6.0
+      kills: 1
+    Honeypie: 
+      damage_given: 6.0
+      damage_taken: 108.0
+      kills: 0
+  match: 32
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 98.5
+  elapsed_ticks: 1829
+  seed: 1411664000
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 1.5
+      kills: 1
+    Honeypie: 
+      damage_given: 1.5
+      damage_taken: 108.0
+      kills: 0
+  match: 33
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 98.5
+  elapsed_ticks: 1574
+  seed: 1411664002
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 1.5
+      kills: 1
+    Honeypie: 
+      damage_given: 1.5
+      damage_taken: 108.0
+      kills: 0
+  match: 34
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 94.0
+  elapsed_ticks: 1789
+  seed: 1411664003
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 6.0
+      kills: 1
+    Honeypie: 
+      damage_given: 6.0
+      damage_taken: 108.0
+      kills: 0
+  match: 35
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 67.0
+  elapsed_ticks: 3276
+  seed: 1411664005
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 33.0
+      kills: 1
+    Honeypie: 
+      damage_given: 33.0
+      damage_taken: 108.0
+      kills: 0
+  match: 36
+  round: 1
+- winner_is: 
+  - Honeypie
+  winner_energy: 
+  - 28.0
+  elapsed_ticks: 8682
+  seed: 1411664006
+  robots: 
+    Bunny: 
+      damage_given: 72.0
+      damage_taken: 100.5
+      kills: 0
+    Honeypie: 
+      damage_given: 100.5
+      damage_taken: 72.0
+      kills: 1
+  match: 37
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 38.5
+  elapsed_ticks: 4895
+  seed: 1411664009
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 61.5
+      kills: 1
+    Honeypie: 
+      damage_given: 61.5
+      damage_taken: 108.0
+      kills: 0
+  match: 38
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 97.0
+  elapsed_ticks: 1583
+  seed: 1411664010
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 3.0
+      kills: 1
+    Honeypie: 
+      damage_given: 3.0
+      damage_taken: 108.0
+      kills: 0
+  match: 39
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 95.5
+  elapsed_ticks: 1507
+  seed: 1411664012
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 4.5
+      kills: 1
+    Honeypie: 
+      damage_given: 4.5
+      damage_taken: 108.0
+      kills: 0
+  match: 40
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 91.0
+  elapsed_ticks: 906
+  seed: 1411664013
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 9.0
+      kills: 1
+    Honeypie: 
+      damage_given: 9.0
+      damage_taken: 108.0
+      kills: 0
+  match: 41
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 100.0
+  elapsed_ticks: 1861
+  seed: 1411664014
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 0.0
+      kills: 1
+    Honeypie: 
+      damage_given: 0.0
+      damage_taken: 108.0
+      kills: 0
+  match: 42
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 58.0
+  elapsed_ticks: 3016
+  seed: 1411664016
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 42.0
+      kills: 1
+    Honeypie: 
+      damage_given: 42.0
+      damage_taken: 108.0
+      kills: 0
+  match: 43
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 17.5
+  elapsed_ticks: 5188
+  seed: 1411664017
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 82.5
+      kills: 1
+    Honeypie: 
+      damage_given: 82.5
+      damage_taken: 108.0
+      kills: 0
+  match: 44
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 59.5
+  elapsed_ticks: 3944
+  seed: 1411664019
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 40.5
+      kills: 1
+    Honeypie: 
+      damage_given: 40.5
+      damage_taken: 108.0
+      kills: 0
+  match: 45
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 92.5
+  elapsed_ticks: 1487
+  seed: 1411664021
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 7.5
+      kills: 1
+    Honeypie: 
+      damage_given: 7.5
+      damage_taken: 108.0
+      kills: 0
+  match: 46
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 41.5
+  elapsed_ticks: 4368
+  seed: 1411664022
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 58.5
+      kills: 1
+    Honeypie: 
+      damage_given: 58.5
+      damage_taken: 108.0
+      kills: 0
+  match: 47
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 8.5
+  elapsed_ticks: 7572
+  seed: 1411664024
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 91.5
+      kills: 1
+    Honeypie: 
+      damage_given: 91.5
+      damage_taken: 108.0
+      kills: 0
+  match: 48
+  round: 1
+- winner_is: 
+  - Bunny
+  winner_energy: 
+  - 49.0
+  elapsed_ticks: 3172
+  seed: 1411664026
+  robots: 
+    Bunny: 
+      damage_given: 108.0
+      damage_taken: 51.0
+      kills: 1
+    Honeypie: 
+      damage_given: 51.0
+      damage_taken: 108.0
+      kills: 0
+  match: 49
+  round: 1
